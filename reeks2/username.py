@@ -17,10 +17,8 @@ def solution():
         space_index = full_name.index(" ")
         first_name = full_name[:space_index]
         last_name = full_name[space_index + 1:].replace(' ', '')  # Replace spaces by nothing == removing all spaces
-        if len(last_name) >= 4:
-            print('{}{}'.format(first_name[0].lower(), last_name[:4].lower()))
-        else:
-            print('{}{}'.format(first_name[0].lower(), last_name.lower()))  # Only when last name is not long enough
+        print('{}{}'.format(first_name[0].lower(), last_name[:4].lower()))
+        """ REMARK: You can take a substring with an index that is larger than the string's length """
     # Solution ends here
 
 
