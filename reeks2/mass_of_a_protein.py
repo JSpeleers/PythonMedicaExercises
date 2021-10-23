@@ -43,8 +43,8 @@ def solution_super_short():
     while amino_acid_sequence != '':
         amino_acid_sequence = input()
         complete_string += amino_acid_sequence
-    # Take the sum of the list of all the masses = list comprehension
     print('Protein {} has a mass of {:.2f} Da.'.format(protein_id, sum([aa_mass[char] for char in complete_string])))
+    """ REMARK: Here we take the sum of the list of all the masses using List Comprehensions """
     # Short solution ends here
 
 
