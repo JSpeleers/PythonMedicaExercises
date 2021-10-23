@@ -49,7 +49,7 @@ def solution_super_short():
 
 
 if __name__ == '__main__':
-    with open('./inputs/input_mass_of_a_protein.txt') as file:
+    with open('resources/input_mass_of_a_protein.txt') as file:
         lines = file.readlines()
         lines = [line.rstrip() for line in lines]
     solution()

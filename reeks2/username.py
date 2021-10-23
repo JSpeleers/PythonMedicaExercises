@@ -23,7 +23,7 @@ def solution():
 
 
 if __name__ == '__main__':
-    with open('./inputs/input_username.txt') as file:
+    with open('resources/input_username.txt') as file:
         lines = file.readlines()
         lines = [line.rstrip() for line in lines]
     solution()
