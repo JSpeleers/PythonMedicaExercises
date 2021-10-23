@@ -13,3 +13,4 @@ The only noticable difference is that an `IndexError: list index out of range` i
 
 - [Salary](./reeks2/salary.py)
 - [Username](./reeks2/username.py)
+- [Mass of a protein](./reeks2/mass_of_a_protein.py)
