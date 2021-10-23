@@ -16,3 +16,4 @@ Python `""" Docstrings """` on the other hand will explain some of the Python ma
 - [Salary](./reeks2/salary.py)
 - [Username](./reeks2/username.py)
 - [Mass of a protein](./reeks2/mass_of_a_protein.py)
+- [WOW-Signal](./reeks2/wow_signal.py)
