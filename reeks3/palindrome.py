@@ -1,6 +1,6 @@
 def solution():
     # Solution starts here
-    with open('resources/woordenlijst.txt') as file:
+    with open('resources/woordenlijst.txt') as file:  # ! path to file can change
         for line in file:
             line = line.rstrip()  # Remove whitespace and newline
             if line == line[::-1]:  # Is line equals the reversed line

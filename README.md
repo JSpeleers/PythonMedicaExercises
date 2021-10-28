@@ -21,3 +21,4 @@ Python `""" Docstrings """` on the other hand will explain some of the Python ma
 ### Reeks 3
 
 - [Palindrome](./reeks3/palindrome.py)
+- [GTF File Parsing](./reeks3/gtf_file_parsing.py)
