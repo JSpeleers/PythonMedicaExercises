@@ -11,15 +11,15 @@ Python `""" Docstrings """` on the other hand will explain some of the Python ma
 
 ## Solutions
 
-### Reeks 2
+### Series 2
 
-- [Salary](./reeks2/salary.py)
-- [Username](./reeks2/username.py)
-- [Mass of a protein](./reeks2/mass_of_a_protein.py)
-- [WOW-Signal](./reeks2/wow_signal.py)
+- [Salary](series2/salary.py)
+- [Username](series2/username.py)
+- [Mass of a protein](series2/mass_of_a_protein.py)
+- [WOW-Signal](series2/wow_signal.py)
 
-### Reeks 3
+### Series 3
 
-- [Palindrome](./reeks3/palindrome.py)
-- [GTF File Parsing](./reeks3/gtf_file_parsing.py)
-- [Genbank](./reeks3/genbank.py)
+- [Palindrome](series3/palindrome.py)
+- [GTF File Parsing](series3/gtf_file_parsing.py)
+- [Genbank](series3/genbank.py)
