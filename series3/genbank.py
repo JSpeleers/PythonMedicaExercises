@@ -1,7 +1,7 @@
 # Solution starts here
 def genbank(block_size, number_of_blocks, sequence):
     sequence = sequence.lower()
-    k_print_padding = len(str(len(sequence)))
+    k_print_padding = len(str(len(sequence) - (len(sequence) % (block_size * number_of_blocks))))
     string_to_return = ''
     for line_index in range(0, -(-len(sequence) // (block_size * number_of_blocks))):  # For each line to print
         """ REMARK: The end index in this range() above, is the ceiling of the division (same as math.ceil()) """
@@ -16,7 +16,7 @@ def genbank(block_size, number_of_blocks, sequence):
             # Append the block of the sequence
             line += ' {}'.format(sequence[block_start_index: block_end_index])
         string_to_return += line + '\n'
-    return string_to_return
+    return string_to_return.rstrip()
 
 
 # Solution ends here
